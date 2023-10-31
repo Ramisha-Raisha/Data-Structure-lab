@@ -56,14 +56,14 @@ void displayStack()
     cout<<"Stack is empty!"<<endl;
   }
   else
-  {
+  { cout<<"Displaying Stack Elements: "<<endl;
     for(int i=top;i>=0;i--)
     {
       cout<<Arr[i]<<endl;
     }
   }
 }
-int removeSmallestElement()
+void removeSmallestElement()
 {
   if(isempty())
   {
@@ -86,8 +86,8 @@ int removeSmallestElement()
     }
 
     top--;
-
-    return smallestElement;
+    cout<<"Lowest element is removed from the stack."<<endl;
+    //return smallestElement;
   }
 }
 
@@ -95,6 +95,7 @@ int main()
 {
 
 push(5);
+push(4);
 push(10);
 push(11);
 push(12);
