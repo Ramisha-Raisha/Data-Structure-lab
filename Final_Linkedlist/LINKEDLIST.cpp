@@ -60,7 +60,7 @@ void deleteNode(Node* &head, int key){
             prev = temp;
             temp = temp->next;
         }
-        ///if the need to be checked node is null as there is nd op.
+        ///if the need to be checked node is null as there is nd operator.
         if(temp == NULL){
           return;
         }
