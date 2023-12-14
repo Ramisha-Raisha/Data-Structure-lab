@@ -101,7 +101,7 @@ void display(Node* head){///not needed to pass by reference coz we are not going
 
 int main(){
    //Node* n = new Node(1);
-   //cout<<n->val<<" "<<n->next<<endl;
+   ///cout<<n->val<<" "<<n->next<<endl;
    Node* head = NULL;
    insertAtHead(head,5);
    //display(head);
